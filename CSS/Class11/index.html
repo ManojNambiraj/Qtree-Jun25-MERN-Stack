@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+      }
+
+      .parent {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .para {
+        font-style: italic;
+      }
+
+      @media (min-width: 320px) and (max-width: 425px) {
+        .box {
+          width: 100px;
+          height: 100px;
+          background-color: pink;
+        }
+
+        .parent {
+          flex-direction: column;
+        }
+
+        .para {
+          font-style: normal;
+        }
+
+        body{
+            flex-direction: column;
+        }
+      }
+
+      @media (min-width: 426px) and (max-width: 768px) {
+      }
+    </style>
+  </head>
+  <body>
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequuntur
+      illo quasi. Quam, obcaecati velit reprehenderit sit consectetur similique
+      perspiciatis et veniam reiciendis doloribus error eligendi assumenda quia
+      tempora labore.
+    </p>
+    <div class="parent">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
