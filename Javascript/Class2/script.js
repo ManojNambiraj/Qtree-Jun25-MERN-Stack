@@ -1,176 +1,222 @@
 // Variables:
 
-    // let myAgeInMySchoolDays = 20
-    // let my_age_in_my_school_Days = 20
+// let myAgeInMySchoolDays = 20
+// let my_age_in_my_school_Days = 20
 
-    // console.log(myAgeInMySchoolDays);
+// console.log(myAgeInMySchoolDays);
 
 // Dataypes:
 
-    // let temp = 23
+// let temp = 23
 
-    // console.log(temp);
-    // console.log(typeof(temp));
+// console.log(temp);
+// console.log(typeof(temp));
 
 // Operators:
 
-    // Arithmetic Operators
+// Arithmetic Operators
 
-        // (+, -, *, /, %, **, ++, --)
+// (+, -, *, /, %, **, ++, --)
 
-            // let a = 5
-            // let b = 3
-            // let result
+// let a = 5
+// let b = 3
+// let result
 
-            // result = a + b
-            // result = a - b
-            // result = a * b
-            // result = a / b
-            // result = a % b
-            // result = a ** b
-            // result = ++a
-            // result = --a
+// result = a + b
+// result = a - b
+// result = a * b
+// result = a / b
+// result = a % b
+// result = a ** b
+// result = ++a
+// result = --a
 
-            // console.log(result);
-        
-    // Assignment Operators
+// console.log(result);
 
-        // (=, +=, -=, *=, /=, %=, **=)
+// Assignment Operators
 
-            // let a = 7
+// (=, +=, -=, *=, /=, %=, **=)
 
-            // a += 3   // a = a + 3
-            // a -= 3   // a = a - 3
-            // a *= 3   // a = a * 3
-            // a /= 3   // a = a / 3
-            // a %= 3   // a = a % 3
-            // a **= 3   // a = a ** 3
+// let a = 7
 
-            // console.log(a);
-        
-    // Comparison Operators ---> boolean
-        // (==, ===, !=, !==, >, >=, <, <=)
+// a += 3   // a = a + 3
+// a -= 3   // a = a - 3
+// a *= 3   // a = a * 3
+// a /= 3   // a = a / 3
+// a %= 3   // a = a % 3
+// a **= 3   // a = a ** 3
 
-            // let age = 18
-            // let result
+// console.log(a);
 
-            // result = (age == 18)
-            // result = (age === 18)
-            // result = (age != 18)
-            // result = (age !== 18)
-            // result = (age > 18)
-            // result = (age >= 18)
-            // result = (age < 18)
-            // result = (age <= 18)
+// Comparison Operators ---> boolean
+// (==, ===, !=, !==, >, >=, <, <=)
 
-            // console.log(result);
-        
-    // Logical Operators
+// let age = 18
+// let result
 
-        // (&&, ||, !)
+// result = (age == 18)
+// result = (age === 18)
+// result = (age != 18)
+// result = (age !== 18)
+// result = (age > 18)
+// result = (age >= 18)
+// result = (age < 18)
+// result = (age <= 18)
 
-        // &&
+// console.log(result);
 
-            // (true)  && (true)  --> true
-            // (true)  && (false) --> false
-            // (false) && (true)  --> false
-            // (false) && (false) --> false
+// Logical Operators
 
-        // ||
+// (&&, ||, !)
 
-            // (true)  || (true)  --> true
-            // (true)  || (false) --> true
-            // (false) || (true)  --> true
-            // (false) || (false) --> false
+// &&
 
-                // let age = 40
-                // let result
+// (true)  && (true)  --> true
+// (true)  && (false) --> false
+// (false) && (true)  --> false
+// (false) && (false) --> false
 
-                // result = (age > 18) && (age < 30)
-                // result = !(age == 18 || age < 30);
+// ||
 
-                // console.log(result);
+// (true)  || (true)  --> true
+// (true)  || (false) --> true
+// (false) || (true)  --> true
+// (false) || (false) --> false
 
-    // Ternary Operators
+// let age = 40
+// let result
 
-        // let age = 16;
-        // let result;
+// result = (age > 18) && (age < 30)
+// result = !(age == 18 || age < 30);
 
-        // result = (age > 18) ? "Eiligible for voting" : "Not Eligible"
+// console.log(result);
 
-        // console.log(result);
+// Ternary Operators
 
-    // Type Operators
+// let age = 16;
+// let result;
+
+// result = (age > 18) ? "Eiligible for voting" : "Not Eligible"
+
+// console.log(result);
+
+// Type Operators
 
 // Control Statements:
 
-    // Conditional stmts
+// Conditional stmts
 
-        // if
+// if
 
-            // let age = 17
+// let age = 17
 
-            // if(age > 18){
-            //     console.log("Eligible for voting");
-            // }
+// if(age > 18){
+//     console.log("Eligible for voting");
+// }
 
-        // if else
+// if else
 
-            // let age = 17;
+// let age = 17;
 
-            // if (age > 18) {
-            //   console.log("Eligible for voting");
-            // }else{
-            //   console.log("Not Eligible");
-            // }
+// if (age > 18) {
+//   console.log("Eligible for voting");
+// }else{
+//   console.log("Not Eligible");
+// }
 
-        // if else if
+// if else if
 
-            // let age = 14;
+// let age = 14;
 
-            // if (age > 18) {
-            //   console.log("Eligible for voting");
-            // } else if (age == 18) {
-            //   console.log("Partially Eligible");
-            // } else {
-            //   console.log("Not Eligible");
-            // }
+// if (age > 18) {
+//   console.log("Eligible for voting");
+// } else if (age == 18) {
+//   console.log("Partially Eligible");
+// } else {
+//   console.log("Not Eligible");
+// }
 
-        // switch case
+// switch case
 
-            let day = 12
+// let day = 4
 
-            switch (day) {
-                case 1:
-                    console.log("It's a Monday");
-                    break;
-                case 2:
-                    console.log("It's a Tuesday");
-                    break;
-                case 3:
-                    console.log("It's a Wednesday");
-                    break;
-                case 4:
-                    console.log("It's a Thursday");
-                    break;
-                case 5:
-                    console.log("It's a Friday");
-                    break;
-                case 6:
-                    console.log("It's a Saturday");
-                    break;
-                default:
-                    console.log("Happy weekend");
-            }
+// switch (day) {
+//     case 1:
+//         console.log("It's a Monday");
+//         break;
+//     case 2:
+//         console.log("It's a Tuesday");
+//         break;
+//     case 3:
+//         console.log("It's a Wednesday");
+//         break;
+//     case 4:
+//         console.log("It's a Thursday");
+//         break;
+//     case 5:
+//         console.log("It's a Friday");
+//         break;
+//     case 6:
+//         console.log("It's a Saturday");
+//         break;
+//     default:
+//         console.log("Happy weekend");
+// }
 
-    // Looping stmts
+// Looping stmts
 
-        // for loop
-        // while loop
-        // do...while loop
+// for loop
 
-    // Jumping stmts
+// DRY ---> Don't repeat your code
 
-        // break
-        // continue
+// for(stmt1; stmt2; stmt4){
+// ......stmt3....
+// }
 
+// for(let i = 1; i <= 10; i++){
+//     console.log(i);
+// }
+
+// while loop
+
+// let i = 11;
+
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+// do...while loop
+
+// let i = 11;
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+
+// Jumping stmts
+
+// break
+
+// let i = 1;
+
+// while (i <= 5) {
+//     if(i == 3){
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+
+// continue
+
+let i = 0;
+
+while (i < 5) {
+  i++;
+  if (i == 3) {
+    continue;
+  }
+  console.log(i);
+}
